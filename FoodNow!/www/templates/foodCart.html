@@ -1,0 +1,24 @@
+<ion-view title="Food Cart" id="page3">
+  <ion-nav-buttons side="left" class="has-header">
+    <button class="button button-icon icon ion-ios-cart"></button>
+  </ion-nav-buttons>
+  <ion-content padding="true" class="has-header">
+    <h3 id="foodCart-heading2" style="color:#000000;">BILL $46.00</h3>
+    <ion-list id="foodCart-list2">
+      <ion-item id="foodCart-list-item14">Zinger
+        <span class="item-note">$28.00</span>
+      </ion-item>
+      <ion-item id="foodCart-list-item15">Regular Fries
+        <span class="item-note">$8.00</span>
+      </ion-item>
+      <ion-item id="foodCart-list-item16">Regular Drink
+        <span class="item-note">$10.00</span>
+      </ion-item>
+    </ion-list>
+    <div id="foodCart-button-bar1" class="button-bar">
+      <a ui-sref="tabsController.kFCMenu" id="foodCart-button4" class="button button-positive  button-block button-outline">Menu</a>
+      <button id="foodCart-button5" class="button button-positive  button-block button-outline" ng-click="showConfirm()">Order </button>
+      <a ui-sref="tabsController.foodNow" id="foodCart-button6" class="button button-assertive  button-block button-outline">Cancel</a>
+    </div>
+  </ion-content>
+</ion-view>
