@@ -47,6 +47,16 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
+  .state('tabsController.cloudTabDefaultPage', {
+    url: '/page4',
+    views: {
+      'tab3': {
+        templateUrl: 'templates/cloudTabDefaultPage.html',
+        controller: 'cloudTabDefaultPageCtrl'
+      }
+    }
+  })
+
   .state('tabsController', {
     url: '/page1',
     templateUrl: 'templates/tabsController.html',
